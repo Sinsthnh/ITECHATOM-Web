@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <link rel="stylesheet" href="./respon.css">
+    <link rel="stylesheet" href="./gioHang/gioHang.css">
+    <link rel="stylesheet" href="./css/uicons-regular-rounded.css">
+    <link rel="stylesheet" href="./icon/themify-icons/themify-icons.css">
+    <link rel="icon" type="image/x-icon" href="http://127.0.0.1:5500/img/atom-free-icon-font.png">
+    <title>Trang chủ</title>
+</head>
+<body>
+    <div id="main">
+        <div id="header">
+                <div class="img" ><a href="./page/home.html" target="page" ><img src="./img/itechatom - Sao chép.jpg" alt=""></a></div>
+                <input class="timkiem" name="tim" id="tk" type="text" placeholder="Tìm Kiếm">
+                <i class="menuSUD ti-menu" onclick="MENU()" ></i>  
+            <ul id="nav">
+                <li class=""><a href="#introduce" target="page" >INTRODUCE</a></li> 
+                <li><a href="#titleL" target="page">CLASSIFY</a></li>
+                <li>
+                    <a href="#product" target="page">PRODUCT</a>
+                    <ul class="menu-sub">
+                        <li><a href="#" target="page">Phone</a></li>
+                        <li><a href="#" target="page">Laptop</a></li>
+                        <li><a href="#" target="page">Table</a></li>   
+                    </ul>
+                </li>
+                <li class="search" >
+                    <input class="timkiem" name="tim" id="tk" type="text" placeholder="Tìm Kiếm">
+                </li>
+                <li class="bag" ondlclick="display ()" >
+                    
+                    <a href="#"><i class="fi fi-rr-shopping-bag-add" id="bag" ></i></a>
+                    <p id="Number">0</p>
+                    <div id="cart">
+                        <div id="body-cart">
+                            <img src="./img/undraw_shopping_app_flsj.png" alt="" id="img-cart">
+                            <h5 id="title-cart" >Chưa có sản phẩm nào</h5>
+                            <table id="table-cart" >
+                                <!-- <tr >
+                                    <td class="tdImg"><img src="./img/sp1.png" alt="" class="produce-img"></td>
+                                    <td><h3 class="produce-name" >Galaxy S21 FE</h3></td>
+                                    <td><h3 class="produce-price" >16.989.474 ₫</h3></td>
+                                    <td class="tdInput"><input type="number" width="10px" class="produce-quantity" value="1" style="color: black;"></td>
+                                    <td class="idSub" ><h3>16.989.474 ₫</h3><button class="delete" style="cursor:pointer" onclick="deletes()">Xóa</button> </td>
+                                    
+                                </tr> -->
+                            </table>
+                        </div>
+                        
+                        <div class="btn">
+                            <!-- <button id="ChonThanhToan" onclick="ChonMua()" >Chọn mua</button> -->
+                          
+                        </div>
+                            <i class="" ></i>
+                    </div>
+                    
+                </li>
+                <li class="register"><a href="./dangKy/dangKy.html" target="page">REGISTER</a></li>
+                <li class="sign-in"><a href="./dangNhap/dangNhap.html" target="page">SIGN IN</a></li>
+                <li class="sign" >
+                    <a href="#"><i class="fi fi-rr-portrait"></i></a>
+                    <div id="SIGN-IN-OUT">
+                        <ul id="nav-sign">
+                            <li><a href="./dangNhap/dangNhap.html">SIGN IN</a></li>
+                            <li><a href="./dangKy/dangKy.html">REGISTER</a></li>   
+                        </ul>
+                    </div>
+                </li>
+            </ul>  
+        </div>
+        <!-- <div id="header2" >
+            <div class="img" ><a href="./page/home.html" target="page" ><img src="./img/itechatom - Sao chép.jpg" alt=""></a></div>
+            <i class="menuSUD ti-menu" onclick="MENU()" ></i>
+            <ul id="nav">
+                <li class=""><a href="#introduce" target="page" >INTRODUCE</a></li> 
+                <li><a href="#titleL" target="page">CLASSIFY</a></li>
+                <li>
+                    <a href="#product" target="page">PRODUCT</a>
+                    <ul class="menu-sub">
+                        <li><a href="" target="page">Phone</a></li>
+                        <li><a href="." target="page">Laptop</a></li>
+                        <li><a href="" target="page">Table</a></li>   
+                    </ul>
+                </li>
+                <li class="bag" ondlclick="display ()" >
+                    <a href="#"><i class="fi fi-rr-shopping-bag-add"></i></a>
+                    <div id="cart">
+                        <h5 id="headding-head">Chưa có sản phẩm nào</h5>
+                        <div id="body-cart">
+
+                        </div>
+                        <div class="btn">
+                            <button id="ChonThanhToan" onclick="ChonMua()" >Chọn mua</button>
+                            
+                        </div>
+                            <i class="" ></i>
+                    </div>
+                </li>
+                <li class="register"><a href="./dangKy/dangKy.html" target="page">REGISTER</a></li>
+                <li class="sign-in"><a href="./dangNhap/dangNhap.html" target="page">SIGN IN</a></li>
+                <li class="sign" >
+                    <a href="#"><i class="fi fi-rr-portrait"></i></a>
+                    <div id="SIGN-IN-OUT">
+                        <ul id="nav-sign">
+                            <li><a href="./dangNhap/dangNhap.html">SIGN IN</a></li>
+                            <li><a href="./dangKy/dangKy.html">REGISTER</a></li>   
+                        </ul>
+                    </div>
+                </li>
+            </ul> 
+        </div> -->
+
+        <div id="banner">
+            <div class="slider">
+                <div class="slider-main">
+                    <div class="slider-item">
+                        <img src="./img/anh1.jpg" alt="" id="anh">
+                        <button onclick="showPrev()" ondblclick="showFist()"><i class="fi fi-rr-angle-left"></i></button>
+                        <button onclick="showNext()" ondblclick="showLast()"><i class="right ti-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+      
+        <div id="list-product">
+            <h1 id="titleL" >CLASSIFY</h1>
+            <div class="img-block">
+                <img src="./img/Online wishes list-rafiki.png" alt="">
+            </div>
+            <div class="product-block">
+                <div class="list-block">
+                    <div class="block">
+                        <div id="tt">
+                        <i class="mobi ti-mobile" ></i>
+                        <h1>Smail Phone</h1>
+                        </div>
+                        <p> 
+                            Điện thoại thông minh hay smartphone 
+                            là khái niệm để chỉ các loại thiết 
+                            bị di động kết hợp điện thoại di 
+                            động..
+                        </p>
+                    </div>
+                    <div class="block">
+                        <div id="tt" >
+                        <i class="tablet ti-tablet"></i> 
+                        <h1>Tablet</h1>
+                        </div>
+                        <p> 
+                            Máy tính bảng, là một thiết bị di động, 
+                            thông thường có hệ điều hành di động và 
+                            mạch xử lý, màn hình cảm ứng..
+                        </p>
+                    </div>
+                    <div class="block">
+                        <div id="tt">
+                        <i class="laptop ti-desktop" ></i> 
+                        <h1>LapTop</h1>
+                        </div>
+                        <p> 
+                            Máy tính xách tay hay máy vi tính xách 
+                            tay là một chiếc máy tính cá nhân nhỏ 
+                            gọn có thể mang xách được.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="product">
+            <h1 class="title" >Product</h1>
+            <div class="shelf-product">
+                <div class="row-product">
+                    <div class="product-item">
+                        <img id="S21-img" src="./img/sp1.png" alt="">
+                        <h3 id="S21">Galaxy 21S FE 5G</h3>
+                        <h4>18..99.0.000 đ</h4>
+                        <button type="button" class="vh" ><h2>Vỏ Hàng</h2></button>
+                        <button type="button" class="tht" ><h2>Tìm hiểu thêm</h2></button>
+                    </div>
+                    <div class="product-item">
+                        <img src="./img/sp2.png" alt="">
+                        <h3>Galaxy Z Fold 3 5G</h3>
+                        <h4>39.991.276 đ</h4>
+                        <button type="button" class="vh" ><h2>Vỏ Hàng</h2></button>
+                        <button type="button" class="tht" ><h2>Tìm hiểu thêm</h2></button>
+                    </div>
+                    <div class="product-item">
+                        <img src="./img/sp3.png" alt="">
+                        <h3>Galaxy Z Flip 3 5G</h3>
+                        <h4>22.990.616 đ</h4>
+                        <button type="button" class="vh" ><h2>Vỏ Hàng</h2></button>
+                        <button type="button" class="tht" ><h2>Tìm hiểu thêm</h2></button>
+                    </div>
+                    <div class="product-item">
+                        <img src="./img/sp4.png" alt="">
+                        <h3>Galaxy S20 FE</h3>
+                        <h4>13.490.415 đ</h4>
+                        <button type="button" class="vh" ><h2>Vỏ Hàng</h2></button>
+                        <button type="button" class="tht" ><h2>Tìm hiểu thêm</h2></button>
+                    </div>
+                </div>
+                <div class="row-product">
+                    <div class="product-item">
+                        <img src="./img/sp5.jpg" alt="">
+                        <h3>MSI Katana GF66 </h3>
+                        <h4>28.990.000 đ</h4>
+                        <button type="button" class="vh" ><h2>Vỏ Hàng</h2></button>
+                        <button type="button" class="tht" ><h2>Tìm hiểu thêm</h2></button>
+                    </div>
+                    <div class="product-item">
+                        <img src="./img/sp6.jpg" alt="">
+                        <h3>HP VICTUS 16</h3>
+                        <h4>29.990.000 đ</h4>
+                        <button type="button" class="vh" ><h2>Vỏ Hàng</h2></button>
+                        <button type="button" class="tht" ><h2>Tìm hiểu thêm</h2></button>
+                    </div>
+                    <div class="product-item">
+                        <img src="./img/sp7.jpg" alt="">
+                        <h3>Galaxy Tab S7 FE</h3>
+                        <h4>13.990.000 đ</h4>
+                        <button type="button" class="vh" ><h2>Vỏ Hàng</h2></button>
+                        <button type="button" class="tht" ><h2>Tìm hiểu thêm</h2></button>
+                    </div>
+                    <div class="product-item">
+                        <img src="./img/sp8.jpg" alt="">
+                        <h3>iPad mini 6</h3>
+                        <h4>14.990.000 đ</h4>
+                        <button type="button" class="vh" ><h2>Vỏ Hàng</h2></button>
+                        <button type="button" class="tht" ><h2>Tìm hiểu thêm</h2></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="introduce">
+            <div class="text-introduce">
+                <h1>Web Công Nghệ ITECH</h1>
+                <p id="hien">
+                    Trang web Itenchatom là một trang web công nghệ nên chúng em 
+                    xây dựng trang web dựa trên những yếu tố về công nghệ nhầm 
+                    đáp ứng được yêu cầu khách hàng khi muốn tìm hiểu về một 
+                    sản phẩm công nghệ nên từ đó chúng em trang bị cho trang 
+                    web các chức năng để phục vụ mục đích đó của khách hàng
+                    Khách hàng có thể tìm thấy toàn bộ các thông tin liên quan
+                    đến mobile (điện thoại, máy tính bảng), tin ICT (thủ thuật, sống),
+                    màn hình, phần cứng máy tính, đánh giá game, khám phá (lịch sử, tri thức),
+                    trà đá công nghệ (tản mạn, ý tưởng sáng tạo)… Itenchatom là website hoạt động 
+                    ổn định và có thời gian onsite của độc giả cao nhất.
+                </p>
+                
+            </div>
+            <div class="img-introduce">
+                <img src="./img/stock.jpg" alt="">
+            </div>
+        </div>
+        <div id="fooder">
+            <div class="icon">
+            <i class="fi ti-facebook"></i>
+            <i class="fi ti-youtube"></i>
+            <i class="fi ti-pinterest"></i>
+            <i class="fi ti-instagram"></i>
+            <i class="fi ti-twitter-alt"></i>
+            </div>
+        </div>
+    </div>
+</body>
+<script type="text/javascript" src="./main.js"></script>
+<script src="./gioHang/gioHang.js"></script>
+</html>

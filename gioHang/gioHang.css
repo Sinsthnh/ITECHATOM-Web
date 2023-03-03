@@ -1,0 +1,108 @@
+.bag {
+    position: relative;
+    padding: 0 40px;
+}
+
+
+
+#cart {
+    position: absolute;
+    top: 73px;
+    right: 20px;
+    width: 600px;
+    height: 300px;
+    border-radius: 5px;
+    background-color: #fff;
+    display: none;
+    box-shadow: 0 0 4px gray;
+    overflow-y: scroll;
+}
+
+#headding-head {
+    color: rgba(173, 173, 173, 0.445);
+    margin: 10px 30px ;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    text-align: center;
+}
+
+#cart #table-cart {
+
+}
+
+#cart #table-cart tr {
+    width: 100%;
+    
+}
+
+#cart #table-cart tr .idSub{
+    position: relative;
+}
+
+#cart #table-cart tr .idSub button {
+    position: absolute;
+    bottom: 10px;
+    right: 10px;
+}
+
+.delete {
+    border: none;
+    background-color: rgba(233, 64, 41, 0.979);
+    padding: 5px 20px;
+    color: #fff;
+    border-radius: 5px;
+}
+
+.delete:hover{
+    background-color: rgba(233, 63, 41, 0.815);
+}
+
+#cart #table-cart tr td {
+    width: 20%;
+    text-align: center;
+    font-size: 11px;
+    font-weight: 500;
+    height: 150px;
+    border-bottom: 1px solid rgba(100, 100, 100, 0.63);
+}
+
+
+
+
+
+#cart #table-cart tr .tdInput{
+    
+}
+
+
+#cart #table-cart tr .produce-quantity{
+    width: 45%;
+    padding: 5px;
+    border: none;
+    background-color: rgb(230, 230, 230);
+    border-radius: 5px;
+}
+.produce-quantity:focus {
+    outline: 0;
+}
+
+#cart #table-cart tr td .produce-img{
+    width: 60%;
+    margin-top: 10px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
